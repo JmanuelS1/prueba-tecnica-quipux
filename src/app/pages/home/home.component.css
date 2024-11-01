@@ -1,0 +1,60 @@
+:host {
+   display: block;
+   background-color: #f8f9fa;
+   min-height: 100vh;
+ }
+ 
+ .search-container {
+   max-width: 800px;
+ }
+ 
+ .card {
+   transition: transform 0.2s;
+   border-radius: 10px;
+ }
+ 
+
+ .btn {
+   border-radius: 20px;
+   padding: 0.375rem 1.5rem;
+ }
+
+ .progress {
+   border-radius: 10px;
+   background-color: #e9ecef;
+ }
+ 
+ .progress-bar {
+   border-radius: 10px;
+ }
+ 
+ .services-info {
+   border-radius: 15px;
+ }
+ 
+ .input-group {
+   border-radius: 10px;
+   overflow: hidden;
+ }
+ 
+ .input-group-prepend .btn,
+ .input-group-append .btn {
+   border-radius: 0;
+ }
+ 
+ .dropdown-toggle {
+   min-width: 160px;
+   text-align: left;
+ }
+ 
+ h1, h2, h3 {
+   font-weight: 600;
+ }
+ 
+ .text-primary {
+   color: #007bff !important;
+ }
+ 
+ .shadow-sm {
+   box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+ }

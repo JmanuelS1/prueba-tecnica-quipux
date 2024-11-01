@@ -1,0 +1,9 @@
+.card:hover {
+   box-shadow: none;
+   transform: none;
+}
+
+.no-hover:hover {
+   box-shadow: none;
+   transform: none;
+}

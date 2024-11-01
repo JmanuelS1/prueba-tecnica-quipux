@@ -1,27 +1,31 @@
-# PruebaTecnica
+# Prueba Diseñador Frontend - Quipux
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+Este repositorio contiene la implementación de una prueba técnica de diseño frontend para **Quipux**, centrada en maquetación y uso de frameworks modernos.
 
-## Development server
+## Descripción de la Prueba
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+El objetivo de esta prueba es reproducir un diseño propuesto en archivos JPG, utilizando un enfoque modular y escalable. Se proporciona un archivo JSON que debe ser usado para poblar la maqueta y un video que ilustra el flujo de navegación esperado.
 
-## Code scaffolding
+## Requerimientos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para cumplir con los requisitos de la prueba, se solicita:
 
-## Build
+- **Maquetar el diseño** proporcionado en los archivos JPG.
+- **Usar un framework CSS** como Bootstrap 4 para la estructura de grid.
+- Desarrollar una solución enfocada en la **administración de contenido** mediante variables CSS y JSON.
+- Garantizar un diseño **responsivo**.
+- Demostrar conocimientos básicos en **JavaScript** y el uso de **frameworks** como AngularJS, Angular, o Vue.js.
+- Hacer uso de **Git** para control de versiones.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Tecnologías Utilizadas
 
-## Running unit tests
+- Framework de diseño: Bootstrap 4
+- Framework JavaScript: [Especificar si utilizaste AngularJS, Angular o Vue.js]
+- Herramienta de control de versiones: Git
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Instalación
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repo.git
+   ```

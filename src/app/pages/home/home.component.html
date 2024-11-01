@@ -1,0 +1,80 @@
+<div class="container-fluid py-5">
+   <div class="row">
+   
+     <div class="col-lg-8">
+      
+       <div class="mb-5">
+         <h1 class="text-primary mb-3" style="font-size: 2.5rem;">¿Que quieres buscar?</h1>
+         <p class="text-muted">Encuentra la información que desees consultar ...</p>
+         
+         <div class="search-container mt-4">
+           <div class="input-group">
+             <div class="input-group-prepend">
+               <button class="btn btn-light dropdown-toggle" type="button" data-toggle="dropdown">
+                 {{selectedService}}
+               </button>
+               <div class="dropdown-menu">
+                 <a class="dropdown-item" href="#">Todos los servicios</a>
+                 <a class="dropdown-item" href="#">Certificados</a>
+                 <a class="dropdown-item" href="#">Trámites</a>
+               </div>
+             </div>
+             <input 
+               type="text" 
+               class="form-control" 
+               [(ngModel)]="searchQuery"
+               placeholder="Que servicio quieres consultar"
+             >
+             <div class="input-group-append">
+               <button class="btn btn-primary" type="button" (click)="onSearch()">
+                 <i class="fas fa-search"></i>
+               </button>
+             </div>
+           </div>
+         </div>
+       </div>
+ 
+     
+       <div class="row bg-white shadow-sm">
+         <div class="col-md-4" *ngFor="let service of services">
+           <div class="card h-100 border-0">
+             <div class="card-body">
+               <h5 class="card-title">{{service.title}}</h5>
+               <p class="card-text text-muted">{{service.description}}</p>
+               <button [class]="'btn ' + service.buttonClass">{{service.buttonText}}</button>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+ 
+     
+     <div class="col-lg-4">
+       <div class="text-center">
+         <img src="resource-1.png" alt="Servicios Quipux" class="img-fluid mb-4" style="max-width: 300px;">
+         
+         <div class="services-info bg-white p-4 rounded shadow-sm">
+           <h2 class="text-primary mb-4">SERVICIOS QUIPUX</h2>
+           
+           <div class="tramites-section">
+             <h3 class="h4 mb-3">Trámites en tu mano</h3>
+             <p class="text-muted">
+               Ahora podrás hacer todos tus trámites desde la comodidad de tu casa, 
+               desde cualquier dispositivo computador, tablet o móvil.
+             </p>
+             
+            
+             <div class="progress mt-4" style="height: 8px;">
+               <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"></div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ 
+ 
+   <div class="text-center mt-5">
+     <img src="logo.png" alt="Quipux" style="height: 30px;">
+   </div>
+ </div>
